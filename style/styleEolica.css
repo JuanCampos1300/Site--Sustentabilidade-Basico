@@ -1,0 +1,172 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Montserrat';
+    src: url(../fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
+    font-family: 'Open Sans';
+    src: url(../fonts/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+*{
+    padding: 0;
+    margin: 0; 
+    box-sizing: border-box; 
+}
+body {
+    min-height: 200px; 
+    height: auto; 
+    overflow: hiddern;
+}
+#interface{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+}
+#containerEolica{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+#containerEolica > h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    padding-bottom: 8px;
+}
+#containerEolica > p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}
+
+/*FUNCIONAMENTO DA ENERGIA EOLICA*/ 
+#containerAlinha{
+    width: 100%;
+    min-height: 100px;
+    display: flex;
+    padding-bottom: 50px;
+}
+.eolica > p{
+    text-align:left;
+    font-size: 17px;
+    font-family: 'Open Sans', sans-serif;
+}
+.eolica{
+    width: 500px;
+    height: 300px;
+    margin: 35px;
+    margin-left: 15px;
+    padding: 10px; 
+    padding-top: 50px;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px 0 30px 0;
+    border-top: solid 8px #5ACC12;
+    border-left: solid 8px #5ACC12;
+}
+/*BENEFICIOS DA ENERGIA EOLICA*/
+#containerBeneficios{
+    width: 100%;
+    display: flex;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    min-height: 100px;
+}
+#textoTB{
+    display: inline-block;
+    background-color: #5ACC12;
+    color: white;
+    padding: 5px 23px 4px 24px;
+    margin-bottom: 14px;
+    margin-left: 2px;
+    margin-right: 6px;
+    margin-top: 10px;
+    width: 50%;
+    min-height: 100px;
+}
+#textoTB > h2{
+    text-align: center;
+    font-size: 20px;
+    font-family:'Montserrat', sans-serif;
+    padding: 15px; 
+    margin-top: 10px; 
+}
+#textoTB > ul > li{
+    text-align: left;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+}
+#eolicaTB > img{
+    margin: 10px;
+}
+#eolicaTB {
+    width: 49%;
+}
+/*TEXTO DE DIFERENÇAS*/
+#containerTexto{
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+#containerTexto > h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    padding-bottom: 8px;
+}
+#containerTexto > p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}
+/*ONSHORE & OFFSHORE*/
+.containerOnOff{
+    display: flex;
+    margin-bottom: 80px;
+    width: 100%;
+    min-height: 100px;
+}
+#Onshore{
+    border-top: solid 10px #5ACC12;
+    border-right: solid 8px #5ACC12;
+    border-left: solid 8px #5ACC12 ;
+    border-radius: 5px 5px 0px 5px; 
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#Offshore{
+    border-top: solid 8px #5ACC12;
+    border-right: solid 8px #5ACC12;
+    border-left: solid 8px #5ACC12;
+    border-radius: 5px 5px 0px 5px; 
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+} 
+.textOnOff{
+    padding: 50px 5px 50px 5px;
+}
+.textOnOff > h2{
+    font-size: 22px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+.textOnOff > p{
+    text-align:left;
+    font-size: 17px;
+    font-family: 'Open Sans', sans-serif; 
+    padding-left: 5px;
+    padding-right:5px;
+    
+}
+#imgOn{
+    background-image: url(../img/on-shore.png);
+    width: 2200px;
+    height: 300px;
+    background-repeat: no-repeat;
+    padding-top: 0px;
+}
+#imgOff{
+    background-image: url(../img/off-shore.png);
+    width: 1680px;
+    height: 300px;
+    background-repeat: no-repeat;
+}
+

@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+a:link,  a:visited, a:active{
+    color: #424242;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header {
+    width: 100%;
+    height: 80px;
+
+    display: flex;
+    align-items: center;
+}
+
+header > img {
+    margin-right: 80px;
+}
+
+header > ul {
+    margin-left: 25%;
+}
+
+header > ul > li{
+    font-size: 1.2em;
+    float: left;
+
+    margin-left: 25px;
+}
+
+#faleConosco {
+    color: #129D20 !important;
+    border-bottom: solid 2px #129D20 !important;
+}
+
+#faleConosco > a {
+    color: #129D20 !important;
+}
+
+header > ul > li:hover {
+    cursor: pointer;
+}

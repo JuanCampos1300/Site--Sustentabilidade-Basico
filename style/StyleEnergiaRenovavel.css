@@ -1,0 +1,253 @@
+@charset "utf-8";
+*{
+    padding: 0;
+    margin: 0; 
+    box-sizing: border-box;
+    list-style: none;
+}
+
+@font-face {
+    font-family: 'Harmattan';
+    src: url(../Fonts/Harmattan/Harmattan-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url(../Fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+
+body {
+    /* min-height: 200px; 
+    height: auto; 
+    overflow: hidden; */
+}
+
+#interface{
+    width: 1000px;
+    /*background-color: rgb(170, 170, 170);*/
+}
+
+.centerobject{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#containerInicial{
+    width: 100%;
+    min-height: 100px;
+    height: auto;
+    overflow: hidden;
+
+    padding: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #5ACC12;
+}
+
+#textoInicial {
+    width: 50%;
+    min-height: 30%;
+    height: auto;
+    overflow: hidden;
+
+    font-family: 'Harmattan';
+    
+    color: #FFFFFF;
+}
+
+#textoInicial > h1 {
+    font-size: 35px;
+    line-height: 1;
+
+    margin-bottom: 30px;
+}
+
+#textoInicial > p {
+    font-size: 25px;
+    line-height: 1;
+
+    margin-bottom: 60px;
+}
+
+#textoInicial > button {
+    width: 195px;
+    height: 40px;
+
+    border-radius: 5px;
+    border: none;
+
+    font-size: 18px;
+    color: #5A5A5A;
+    background-color: #FFFFFF;
+}
+
+#textoInicial > button:hover {
+    cursor: pointer;
+    background-color: #94fa55;
+    transition: 0.3s;
+}
+
+#imagemInicial {
+    width: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#imagemInicial > img {
+    width: 90%;
+    height: 90%;
+}
+
+.textContainers {
+    width: 100%;
+    min-height: 100px;
+    height: auto;
+    overflow: hidden;
+
+    margin-top: 70px;
+    
+    font-family: 'Montserrat';
+    text-align: center;
+
+    /*background-color: #68fa55;*/
+}
+
+.textContainers > h2 {
+    margin-bottom: 20px;
+}
+
+.textContainers > p {
+    font-size: 18px;
+}
+
+.tiposEnergiasRenovaveis > h2{
+    margin-bottom: 6px !important;
+}
+
+#containerFontesEnergia {
+    width: 100%;
+    min-height: 100px;
+    height: auto;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+    padding: 20px;
+
+    /*background-color: rebeccapurple;*/
+}
+
+.fontesEnergia {
+    width: 200px;
+    height: 200px;
+
+    padding-top: 4px;
+    padding-left: 4px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+    border-radius: 10px;
+
+    background-color: #5ACC12;
+}
+
+.conteudoFonteEnergia {
+    width: 200px;
+    height: 200px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    border: solid 1px #dfdfdf;
+    box-shadow: 0px 2px 0px #b4b4b4;
+    border-radius: 10px;
+
+    background-color: white;
+}
+
+.conteudoFonteEnergia > p {
+    font-size: 21px;
+}
+
+.backgroundImage {
+    width: 100px;
+    height: 100px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+
+    border-radius: 50%;
+
+    background-color: #5ACC12;
+}
+#tiposFossil {
+    width: 100%;
+    height: auto;
+    min-height: 100px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 70px;
+}
+
+#imgFossil {
+    width: 280px;
+    height: 200px;
+    background-color: #5ACC12;
+    color: white;
+
+    border-radius: 5px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+    box-sizing: border-box;
+    box-shadow: 1px 1px 2px rgba(0,0,0,0.6)
+
+}
+#imgFossil>img {
+    padding: 10px;
+}
+
+#conteudoFossil {
+    width: 350px;
+    height: 200px;
+    margin-left: 70px;
+    font-size: 18px;
+    
+}
+
+#conteudoFossil>ul>li {
+    list-style: none;
+    margin-bottom: 28px;
+    text-align: justify;
+    color: black;
+    display: flex;
+    align-items: center;
+    font-family: 'Montserrat',sans-serif;
+}
+
+#conteudoFossil>ul>li>img {
+    width: 35px;
+    height: 30px;
+    margin-right: 10px;
+}
+#superOleoXsuperPainel{
+    text-align: center;
+    margin-top: 30px;
+}
+#superOleoXsuperPainel{
+    margin-bottom: 35px;
+}

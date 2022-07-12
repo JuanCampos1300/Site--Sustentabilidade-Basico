@@ -1,0 +1,319 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+@font-face {
+    font-family: 'Harmattan';
+    src: url(../fonts/Harmattan/Harmattan-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Harmattan Bold';
+    src: url(../fonts/Harmattan/Harmattan-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url(../fonts/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+
+@font-face {
+    font-family: 'Staatliches';
+    src: url(../fonts/Staatliches/Staatliches-Regular.ttf);
+}
+
+.centerObject {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#base {
+    width: 1200px;
+    min-height: 100px;
+    height: auto;
+    overflow: hidden;
+}
+
+#banner1 {
+    width: 100%;
+    height: 400px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding-top: 250px;
+    margin-bottom: 70px;
+
+    background-image: url(../img/banner1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#banner1 > button {
+    width: 200px;
+    height: 35px;
+
+    font-size: 1em;
+    
+    border: none;
+    border-radius: 5px;
+    color: #5A5A5A;
+    background-color: #FFFFFF;
+}
+
+#banner1 > button:hover {
+    cursor: pointer;
+}
+
+#conteudoPaixao {
+    width: 100%;
+    min-height: 50px;
+    height: auto;
+    overflow: hidden;
+
+    margin-bottom: 60px;
+    padding: 0px 30px 0px 30px;
+
+    text-align: center;
+    font-family: 'Open Sans';
+}
+
+#conteudoPaixao > h1 {
+    font-family: 'Harmattan Bold' !important;
+    font-size: 2.2em;
+}
+
+#conquistas {
+    width: 100%;
+    height: 270px;
+
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.bgContainerConquista {
+    width: 250px;
+    height: 250px;
+
+    border-radius: 5px;
+
+    background-color: #5ACC12;
+}
+
+.containersConquistas {
+    width: 250px;
+    height: 250px;
+
+    flex-direction: column;
+    border-radius: 5px;
+
+    margin-top: 5px;
+    margin-left: 5px;
+
+    background-color: rgb(255, 255, 255);
+}
+
+.containersConquistas > img {
+    width: 100px;
+    height: 100px;
+
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.containersConquistas > p {
+    font-family: 'Open Sans';
+    font-size: 0.9em;
+
+    padding: 0px 10px 0px 10px;
+}
+
+#conteudoQuemSomos {
+    width: 100%;
+    min-height: 50px;
+    height: auto;
+    overflow: hidden;
+
+    margin-top: 60px;
+    margin-bottom: 60px;
+    padding: 0px 30px 0px 30px;
+
+    text-align: center;
+    font-family: 'Open Sans';
+}
+
+#conteudoQuemSomos > h1 {
+    font-family: 'Harmattan Bold' !important;
+    font-size: 2.2em;
+}
+
+#conteudoCriacaoEmpresa {
+    width: 100%;
+    min-height: 50px;
+    height: auto;
+    overflow: hidden;
+
+    margin-top: 60px;
+    margin-bottom: 60px;
+    padding: 0px 30px 0px 30px;
+
+    text-align: center;
+    font-family: 'Open Sans';
+}
+
+#conteudoCriacaoEmpresa > h1 {
+    font-family: 'Harmattan Bold' !important;
+    font-size: 2.2em;
+}
+
+#criacaoEmpresa {
+    width: 100%;
+    height: 270px;
+
+    display: flex;
+    align-items: center;
+}
+
+.containersCriacaoEmpresa {
+    width: 220px;
+    height: 210px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+
+    border: solid 2px #5ACC12;
+
+    background-color: rgb(255, 255, 255);
+}
+
+.containersCriacaoEmpresa > p {
+    font-family: 'Open Sans';
+    font-size: 0.9em;
+
+    padding: 0px 10px 0px 10px;
+}
+
+#conteudosExclusivos {
+    width: 100%;
+    min-height: 50px;
+    height: auto;
+    overflow: hidden;
+
+    flex-direction: column;
+
+    margin-top: 60px;
+    margin-bottom: 60px;
+    padding: 0px 30px 0px 30px;
+
+    text-align: center;
+    font-family: 'Open Sans';
+}
+
+#conteudosExclusivos > h1 {
+    font-family: 'Harmattan' !important;
+    font-size: 2.2em;
+}
+
+#containerRedesSociais {
+    width: 100%;
+    height: 30px;
+
+    margin-top: 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#containerRedesSociais > img {
+    width: 30px;
+    height: 30px;
+
+    margin: 0px 5px 0px 5px;
+}
+
+#emailCadastroPromo {
+    width: 100%;
+    height: 40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #5ACC12;
+}
+
+#emailCadastroPromo > img {
+    width: 35px;
+    height: 30px;
+}
+
+#emailCadastroPromo > span {
+    font-size: 1.2em;
+    font-family: 'Staatliches';
+    
+    margin-left: 10px;
+    margin-right: 30px;
+
+    color: #FFFFFF;
+}
+
+#emailCadastroPromo > input {
+    width: 350px;
+    
+    padding: 8px;
+    
+    border-radius: 50px;
+    border: none;
+}
+
+#emailCadastroPromo > button {
+    width: 100px;
+    padding: 8px;
+
+    margin-left: 10px;
+
+    border-radius: 50px;
+    border: none;
+    color: #FFFFFF;
+
+    background-color: #313131;
+}
+
+#linksUteis {
+    width: 100%;
+    min-height: 100px;
+    height: auto;
+    overflow: hidden;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+
+    font-family: 'Harmattan';
+    color: #FFFFFF;
+
+    background-color: #59cc1291;
+}
+
+.listLinks {
+    width: 200px;
+    min-height: 100px;
+    height: auto;
+    overflow: hidden;
+
+    margin: 0px 20px 0px 20px;
+}
+
+.listLinks > ul > li {
+    font-size: 1.2em;
+}

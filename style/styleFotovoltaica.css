@@ -1,0 +1,167 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Montserrat';
+    src: url(../fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
+    font-family: 'Open Sans';
+    src: url(../fonts/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+*{
+    padding: 0;
+    margin: 0; 
+    box-sizing: border-box; 
+}
+body {
+    min-height: 200px; 
+    height: auto; 
+    overflow: hiddenr;
+}
+#interface{
+width: 1000px;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+}
+/*FORMATAÇÃO DE TEXTOS GERAIS*/
+#containerEnergia{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+#containerEnergia > h1{
+    font: bold;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    padding-bottom: 10px;
+}
+#containerEnergia > p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}
+/*como funciona o efeito fotovoltaico*/
+#containerAlinha{
+    width: 100%;
+    display: flex;
+    padding-bottom: 60px;
+
+}
+#containerTexto {
+    width: 50%;
+    display: inline-block;
+    background-color: #5ACC12;
+    color: white;
+    padding: 80px 20px 0px 20px; 
+    margin-bottom: 4.5px;
+}   
+#containerTexto > h2{
+    text-align: center;
+    font-size: 22px;
+    font-family:'Montserrat', sans-serif;
+    margin-bottom: 10px; 
+}
+#containerTexto p{
+    text-align: justify;
+    font-size: 21px;
+    font-family: 'Montserrat', sans-serif;
+}
+#containerImagem > img{
+    width: 490px;
+    height: 400px;
+}
+/*Sistemas On-Off grid*/
+#containerSistemas > h1{
+    font: bold;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    padding-bottom: 10px;
+}
+#containerSistemas > p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}
+#containerAlinhaOnOff{
+    width: 100%;
+    display: flex;
+    padding-bottom: 10px;
+}
+.on-off h3{
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+.on-off p{
+    text-align: justify;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+#on-grid{
+    width: 700px;
+    height: 350px;
+    margin: 60px;
+    padding: 10px;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    border-top: solid 8px #5ACC12;
+    border-left: solid 8px #5ACC12;
+}
+#off-grid{
+    width: 700px;
+    height: 350px;
+    margin: 60px;
+    padding: 10px;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    border-top: solid 8px #5ACC12;
+    border-left: solid 8px #5ACC12;
+}
+/*Metricas e Potencial Energetico do Brasil*/
+#containerAlinhaMetrica {
+    width: 100%;
+    display: flex;
+    padding-top: 60px;
+}
+#containerAlinhaBrasil{
+    width: 100%;
+    display: flex;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.metricaBrasil > h2{
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.metricaBrasil > p{
+    font-size: 20px;
+    font-family: 'Open Sans',sans-serif;
+    text-align: justify;
+}
+.metricaBrasil{
+    width: 50%;
+    padding-left: 25px;
+    padding-right: 30px;
+}
+/*figcaption da tabela*/
+#foto-legenda > h1{
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+}
+/*Texto Final*/
+#containerTextoFinal > h1{
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 10px;
+}
+#containerTextoFinal > p{
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+}
+#containerTextoFinal{
+    padding-bottom: 60px;
+}
+
+
+
+
+

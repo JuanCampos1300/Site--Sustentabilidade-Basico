@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+a:link,  a:visited, a:active{
+    color: #424242;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer {
+    width: 100%;
+    height: 80px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #5ACC12;
+}
+
+.info {
+    min-width: 100px;
+    width: auto;
+    overflow: hidden;
+    height: 100%;
+
+
+    margin: 0px 85px 0px 85px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    color: #FFFFFF;
+    font-weight: bold;
+
+    font-size: 0.9em;
+    font-family: 'Open Sans';
+}

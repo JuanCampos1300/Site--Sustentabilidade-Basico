@@ -1,0 +1,194 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url(../fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 200px;
+    height: auto;
+    /*overflow: hidden;*/
+
+}
+
+h2 {
+    font-size: 26px;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 20px;
+
+}
+
+#interface {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.quebraLinha {
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+}
+
+#containerBiomassa>h1 {
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 15px;
+}
+
+#containerBiomassa>p {
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#containerAlinhar {
+    width: 100%;
+    display: flex;
+}
+
+#containerProducao {
+    width: 50%;
+    background-color: #5ACC12;
+    color: white;
+    margin-bottom: 5px;
+    padding-top: 20px;
+}
+
+#containerProducao>h2 {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 10px;
+}
+
+#containerProducao>p {
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+    padding: 0px 20px 0px 20px;
+}
+
+#containerImagem {
+    width: 50%;
+
+}
+
+#containerAlinhaItens {
+    display: flex;
+    width: 100%;
+}
+
+.Itens {
+    width: 300px;
+    height: 150px;
+    box-sizing: border-box;
+    border-top: 6px solid #5ACC12;
+    border-left: 8px solid #5ACC12;
+    border-radius: 15px;
+    margin: 10px;
+    box-shadow: 0px 0px 4px;
+
+}
+
+.Itens>h3 {
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding: 45px 20px 0px 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+#containerTexto {
+    padding: 0px 20px 0px 20px;
+}
+
+#containerTexto>h2 {
+    font-size: 22px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+#containerTexto>p {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+
+}
+
+#mundoImg>img {
+    display: block;
+    padding-bottom: 10px;
+}
+
+#containerMundo {
+    display: flex;
+    margin-bottom: 60px;
+}
+
+#biomassaEnergia {
+    font-size: 22px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    height: auto;
+    min-height: 100px;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+#biomassaEnergia>p{
+    text-align: center;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+#tiposBiomassa {
+    width: 100%;
+    height: auto;
+    min-height: 100px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#imgBiomassa {
+    width: 350px;
+    height: 200px;
+    background-color: #5ACC12;
+    color: white;
+    border-radius: 5px;
+}
+
+#imgBiomassa>img {
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+}
+
+#conteudoBiomassa {
+    width: 350px;
+    height: 200px;
+    margin-left: 70px;
+    font-size: 18px;
+    
+}
+
+#conteudoBiomassa>ul>li {
+    list-style: none;
+    margin-bottom: 20px;
+    text-align: justify;
+    color: black;
+    display: flex;
+    align-items: center;
+}
+
+#conteudoBiomassa>ul>li>img {
+    width: 35px;
+    height: 30px;
+    margin-right: 10px;
+}
